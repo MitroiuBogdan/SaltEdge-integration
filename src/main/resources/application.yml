@@ -1,0 +1,9 @@
+spring.application.name: SaltEdgeClientAPI
+spring.profiles.active: local
+server:
+  port: 8079
+
+
+spring:
+  config:
+    import: optional:configserver:http://localhost:8888
