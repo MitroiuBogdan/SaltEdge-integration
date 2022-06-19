@@ -17,7 +17,7 @@ management:
       exposure:
         include: refresh
 
-#Service Discovery Eureka
+#Service Discovery EUREKA
 
 eureka:
   client:
